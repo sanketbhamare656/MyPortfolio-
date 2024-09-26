@@ -474,3 +474,11 @@ footer p {
     width: 100%;
   }
 }
+
+.btn-disabled {
+  pointer-events: none;
+  background-color: lightgray;
+  color: darkgray;
+  cursor: not-allowed;
+  border-color: gray;
+}
